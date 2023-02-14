@@ -1,0 +1,1317 @@
+/* Omnivox.ca Retheme (Québec College's Web Portal) */
+window {
+    max-width: 0 !important;
+}
+
+table#MasterWrapper,
+#MasterWrapper,
+.wrapperFixed,
+.wrapper {
+    width: auto !important;
+}
+#headerNavbarProfileUserName,
+.carousel-identification-sso {
+    opacity: 0 !important;
+}
+.wrapper,
+.wrapperFixed,
+#headerImage,
+.slider-portail-btn,
+.slider-portail-zone,
+.slider-portail-zone-next,
+.slider-portail-zone-previous {
+    background-image: none !important;
+}
+
+.wrapper,
+.wrapperFixed,
+#spRightSize,
+#QuoiDeNeufsWrapper {
+    background-color: var(--backColorTransparent) !important;
+}
+.carte-QDN#MsgAucunQD9,
+.carte-QDN#MsgAucunQD9 > i {
+    color: var(--omivoxColorLightBlue) !important;
+}
+.carte-portail.carte-manchettes .carte-portail-header-category {
+    color: var(--omivoxColorLightBlue) !important;
+}
+.carte-portail-header {
+    background-image: var(--omivoxCardTransparencyColor) !important;
+    color: var(--omivoxColorLightBlue) !important;
+}
+
+.carte-portail,
+.card-panel:not(.webpart-liens-wrapper),
+.carte-evenement,
+.evenement-passe,
+.carte-portail-contenu {
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+
+.bgcouleur_ZZCR {
+    background-color: var(--omivoxColorLightBlue) !important;
+}
+.bgcouleur_EVAL {
+    background-color: var(--omivoxColorDarkBlue) !important;
+}
+.couleur_ZZCR {
+    color: var(--omivoxColorLightBlue) !important;
+}
+.couleur_EVAL,
+.ovx10_headerPart,
+.aNavigationTab,
+.ovx_sepClass {
+    color: var(--omivoxColorDarkBlue) !important;
+}
+
+
+#ovx10_wrap_actualites:hover {
+    opacity: 1 !important;
+    width: 100% !important;
+    margin-right: 42px !important;
+    height: auto !important;
+    margin-bottom: 44px !important;
+}
+.parent-zone-qd9:has(div#ovx10_wrap_QDN) {
+    width: 100% !important;
+    order: -1;
+}
+#ovx10_wrap_QDN > #QuoiDeNeufsWrapper {
+    position: relative !important;
+}
+.parent-une-qd9 > div#ovx10_wrap_actualites {
+    margin-top: 0px !important
+}
+#ovx10_wrap_actualites:not(:hover) > #actualitesContainer,
+#ovx10_wrap_actualites:not(:hover) > #actualitesContainer > div,
+#ovx10_wrap_actualites:not(:hover) > #actualitesContainer > div > button,
+#ovx10_wrap_actualites:not(:hover) > #actualitesContainer > div > button > i,
+#ovx10_wrap_actualites:not(:hover) > #actualitesContainer > ul,
+#ovx10_wrap_actualites:not(:hover) > #actualitesContainer > ul > li,
+#ovx10_wrap_actualites:not(:hover) > #actualitesContainer > ul > li > a,
+#ovx10_wrap_actualites:not(:hover) > div > a > i,
+#ovx10_wrap_actualites:not(:hover) > div > a,
+#ovx10_wrap_actualites:not(:hover) > div,
+#ovx10_wrap_actualites:not(:hover) > h2 {
+    height: 0px !important;
+}
+#ovx10_wrap_calendrier {
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+    
+}
+.parent-une-qd9 {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    border-spacing: 0px !important;
+}
+#ovx10_wrap_actualites,
+#cntFormulaire_mioInfoTile,
+#cntFormulaire_leaInfoTile {
+    opacity: 0 !important;
+    width: 0px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    height: 0px !important;
+}
+#ovx10_wrap_QDN.webpart-region {
+    margin-bottom: 0px !important;
+}
+
+#cntFormulaire_mioInfoTile,
+#cntFormulaire_leaInfoTile {
+    height: 0px !important;
+    pointer-events: none !important;
+}
+.servInactif {
+    opacity: 0 !important;
+    height: 0px !important;
+    margin-bottom: 0px !important;
+}
+html.FirstHTML {
+    background-image: var(--backImageCSS) !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+}
+#ctl00_bodyPage,
+#tdRepeatMenu,
+#tdLeftMenu {
+    background-image: none !important;
+}
+body {
+    background-image: var(--background-image);
+    background-color: var(--backColorTransparent) !important;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+#tblMenuBarreOutil,
+.hidden {
+    opacity: 0 !important;
+}
+.cBody {
+    background-color: var(--backColorTransparent) !important;
+}
+.tblTrierFiltrer {
+    background-image: none;
+    background-color: var(--backColorTransparent) !important;
+}
+#container {
+    background-image: none;
+    background-color: var(--backColorTransparent) !important;
+}
+#mnuPrWr,
+.MenuPrincipalBoxSpace {
+    background-image: none;
+    background-color: var(--backColorTransparent) !important;
+}
+.collection .collection-item {
+    background-image: none;
+    background-color: var(--backColorTransparent) !important;
+}
+
+.backgroundBody {
+    --backgroundImageString: var(--backImageCSS) !important;
+    background-image: var(--backImageCSS) !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+/*
+li.ovx10_sub {
+background-color: var(--omivoxCardTransparencyColor) !important;
+background-origin: content-box !important;
+background-size: cover !important;
+background-position: center !important;
+background-attachment: fixed !important;
+background-clip:border-box !important;
+}
+#MasterWrapper .ovx10_offreServices li:not(.ovx_sepClass){
+background-size: cover !important;
+margin-bottom: 5px;
+height: 25px;
+}
+#MasterWrapper .ovx10_offreServices li:not(.ovx_sepClass):not(:last-child) {
+margin-bottom: 5px;
+height: 25px;
+}
+*/
+.ovx10_lienService {
+    color: var(--main-color-5) !important;
+}
+.ovx10_lienService:hover {
+    color: var(--main-color-6) !important;
+}
+.webpart-region:not(.ovx10_headerPart) {
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-width: var(--omnivoxBorderWidth) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+h2.ovx10_headerPart:not(#ovx10_header_offreServices) {
+    padding-left: 14px!important;
+    padding-top: 7px!important;
+    padding-bottom: 7px!important;
+}
+.ovx_sepClass {
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-width: 0px !important;
+    border-bottom-width: var(--omnivoxBorderWidth) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: 0px 0px 0px var(--omnivoxBorderRadius) !important;
+    background-color: var(--backColorTransparent) !important;
+}
+
+.ovx10_headerPart:not(#ovx10_header_offreServices) {
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-width: 0px !important;
+    border-bottom-width: var(--omnivoxBorderWidth) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: 0px 0px var(--omnivoxBorderRadius) var(--omnivoxBorderRadius) !important;
+    background-color: var(--backColorTransparent) !important;
+}
+.ovx10_headerPart:not(#ovx10_header_QDN) {
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-width: 0px !important;
+    border-bottom-width: var(--omnivoxBorderWidth) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+
+    border-radius: 0px 0px 0px var(--omnivoxBorderRadius) !important;
+    background-color: var(--backColorTransparent) !important;
+    padding-left: var(--omnivoxBorderRadius) !important;
+}
+#ovx10_header_QDN.ovx10_headerPart {
+    border-bottom-width: 0px;
+    margin-bottom: 0px;
+}
+.slider-scroll.regular-content {
+    margin-left: 6px !important;
+}
+.collapsible-header,
+.collapsible-body,
+.webpart-liens-wrapper .card-panel,
+.materialize-wrapper .card-panel {
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-width: 0px !important;
+    border-bottom-width: var(--omnivoxBorderWidth) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: 0px 0px var(--omnivoxBorderRadius) var(--omnivoxBorderRadius) !important;
+    background-color: var(--backColorTransparent) !important;
+}
+.carte-QDN {
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-width: var(--omnivoxBorderWidth) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+
+.classes-wrapper > .card-panel.section-spacing {
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-width: var(--omnivoxBorderWidth) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+.classes-wrapper > .card-panel > .card-panel-header,
+.card-panel-header-bg2 {
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-width: 0px !important;
+    border-bottom-width: var(--omnivoxBorderWidth) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--backColorTransparent) !important;
+}
+.classes-wrapper > .card-panel > .card-panel-header > .card-panel-title {
+    color: var(--main-color) !important;
+}
+.classes-wrapper > .card-panel > .card-panel-header > .card-panel-desc {
+    color: var(--main-color-5) !important;
+}
+.classes-wrapper > .card-panel > .card-panel-content > .card-panel-item-wrapper > .card-panel-item > .card-panel-item-header > .item-header-title {
+    color: var(--main-color-5) !important;
+}
+
+.classes-wrapper > .card-panel > .card-panel-content > .card-panel-item-wrapper:not(:last-child) > .card-panel-item {
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-width: 0px !important;
+    border-bottom-width: var(--omnivoxBorderWidth) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) var(--omnivoxBorderRadius) var(--omnivoxBorderRadius) var(--omnivoxBorderRadius) !important;
+    background-color: var(--backColorTransparent) !important;
+}
+.classes-wrapper > .card-panel > .card-panel-content > .card-panel-item-wrapper > .card-panel-item > .card-panel-item-content,
+.classes-wrapper > .card-panel > .card-panel-content > .card-panel-item-wrapper > .card-panel-item > .card-panel-item-content > .item-content-row > div:not(:first-child) {
+    color: var(--main-color-5) !important;
+}
+.classes-wrapper > .classes-titre {
+    padding-left: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-width: var(--omnivoxBorderWidth) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) var(--omnivoxBorderRadius) var(--omnivoxBorderRadius) var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+.portail-btn {
+    color: var(--main-color-5) !important;
+    background-color: var(--main-color-6) !important;
+}
+.nb-nouveautes {
+    background-color: var(--main-color) !important;
+}
+.file-indicator {
+    background-image: none !important;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 65% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 65% 0);
+}
+.completed-color-bg {
+    background-color: var(--main-color-2) !important;
+}
+a:hover {
+    color: var(--main-color-3) !important;
+}
+a.carte-portail:not(.disable):hover .carte-portail-contenu .carte-portail-titre,
+.carte-portail:not(.disable):not(.carte-evenement):hover .carte-portail-contenu .carte-portail-titre a,
+.carte-portail.carte-evenement .carte-portail-contenu .carte-portail-titre a:hover,
+.carte-portail.slider-more:not(.disable):hover {
+    color: var(--main-color-3) !important;
+}
+div#headerFixedBar {
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-width: 0px !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: transparent !important;
+    overflow: visible;
+    transition-property: none;
+    transition-duration: .0s;
+    align-items: start;
+    box-shadow: none;
+}
+.headerLeaRetour {
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-left-width: var(--omnivoxBorderWidth)!important;
+}
+a.headerNavbarLink:not(div#container-user-recherche > a) {
+    border-width: var(--omnivoxBorderWidth) var(--omnivoxBorderWidth) var(--omnivoxBorderWidth) var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+div#wrapper-headerOmnivoxLogo {
+    border-width: var(--omnivoxBorderWidth) var(--omnivoxBorderWidth) var(--omnivoxBorderWidth) var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+#container-user-recherche {
+    overflow: visible !important;
+}
+#parent-textbox-recherche:not(.visible) {
+    padding-left: 2345234523465px !important;
+}
+div#wrapper-headerOmnivoxLogo {
+    padding-right: 0px !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+}
+a#headerOmnivoxLogo {
+    padding-right: 25px !important;
+}
+#headerNavbarProfile,
+#headerNavbarSearchLink {
+    border-width: var(--omnivoxBorderWidth) var(--omnivoxBorderWidth) var(--omnivoxBorderWidth) var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+header #headerFixedBar #headerOmnivoxLogo:hover,
+header #headerFixedBar .headerLeaRetour:hover,
+header #headerFixedBar nav #container-user-recherche #parent-textbox-recherche #headerSearchTextBox:hover,
+header #headerFixedBar nav a.headerNavbarLink:hover {
+    border-width: 0px;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omnivoxBackgroundHover);
+}
+#calendrierEvenement-filtres {
+    color: var(--main-color-5) !important;
+}
+.filtre-evenements {
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+td.footerPart > div.footerPosi > footer {
+    opacity: 0;
+}
+.raccourci.code-groupe_lea {
+    padding-left: 20px !important;
+}
+.raccourci > .titre {
+    color: var(--main-color-5) !important;
+}
+.raccourci > .svg-icon {
+    background-color: var(--main-color-6) !important;
+}
+#region-raccourcis-services-skytech {
+    padding-top: 6px !important;
+    padding-left: 0px !important;
+    padding-bottom: 15px !important;
+    width: 344px !important;
+}
+#region-raccourcis-services-skytech,
+div#mnuPrWr,
+div.MenuPrincipalBoxSpace {
+    border-width: var(--omnivoxBorderWidth)!important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+
+div#mnuPrWr2 > .LienWrapper {
+    border-width: var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) var(--omnivoxBorderRadius) !important;
+    background-color: var(--backColorTransparent) !important;
+}
+
+div#mnuPrWr2 > img {
+    margin: 0px !important;
+    border-width: var(--omnivoxBorderWidth) 0px 0px 0px !important;
+    color: var(--backColorTransparent) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: 0px !important;
+    background-color: var(--backColorTransparent) !important;
+    background-blend-mode: color
+}
+div.gg,
+div.gd,
+div.gm {
+    background-image: none !important;
+}
+input#txtRechercheMIO {
+    border-width: var(--omnivoxBorderWidth) 0px var(--omnivoxBorderWidth) var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) 0px 0px var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+div.divBoutonsRechercheMIO {
+    border-width: var(--omnivoxBorderWidth) var(--omnivoxBorderWidth) var(--omnivoxBorderWidth) 0px !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: 0px var(--omnivoxBorderRadius) var(--omnivoxBorderRadius) 0px !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+div.gg,
+input#ctl00_cntHaut_cbAfficheCat {
+    border-width: var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+div.gm > a {
+    color: var(--main-color-5) !important;
+}
+.hlkReplyAllGray {
+    border-width: 0px 5px 0px 5px !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: 0px !important;
+}
+img.msep {
+    display: none!important;
+}
+a#ctl00_cntFormulaire_hlkThemes {
+    display: none !important;
+}
+td.name > span.msgUser {
+    color: var(--main-color-5) !important;
+}
+td.lsTdTitle > div > em {
+    color: var(--main-color) !important;
+}
+td.lsTdTitle > div {
+    color: var(--main-color-4) !important;
+}
+td.date > span {
+    color: black;
+}
+table.lstMIO {
+    border-width: var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+tr.norm {
+    border-width: var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) var(--omivoxColorDarkBlue) var(--omivoxColorDarkBlue) var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: transparent !important;
+    background-image: none !important;
+}
+tr.highlight {
+    border-width: var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) var(--omivoxColorDarkBlue) var(--omivoxColorDarkBlue) var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omnivoxBackgroundHover) !important;
+    background-image: none !important;
+    overflow: hidden !important;
+}
+#ovx10_wrap_QDN > div:last-child > div > a {
+    margin-bottom: 5px !important;
+}
+#ovx10_wrap_QDN > div:last-child > div > a:nth-last-child(2) {
+    border-width: 0px !important;
+    margin-bottom: 0px !important;
+}
+.carte-QDN {
+    -webkit-box-shadow: 0 1px 5px 0 rgb(0 0 0 / 0%);
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 0%);
+}
+#ovx10_wrap_QDN > div:last-child > div > a > .carte-portail-contenu,
+#ovx10_wrap_QDN > div {
+    background-color: transparent !important;
+}
+#ovx10_wrap_QDN {
+    border-bottom-width: var(--omnivoxBorderWidth) !important;
+}
+div.wrapper-qdn-portail,
+div.wrapper-qdn-portail > div {
+    background-color: var(--backColorTransparent) !important;
+    border-bottom-width: initial !important;
+}
+
+div.wrapper-qdn-portail > div > a.carte-QDN {
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-width: 0px !important;
+    border-bottom-width: initial !important;
+    /*border-bottom-width: var(--omnivoxBorderWidth) !important;*/
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--backColorTransparent) !important;
+}
+span.titre-wrapper {
+    color: var(--main-color-5) !important;
+}
+.collapsible-body > .collapsible-item:not(:last-child) {
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-width: 0px !important;
+    border-bottom-width: var(--omnivoxBorderWidth) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: 0px 0px var(--omnivoxBorderRadius) var(--omnivoxBorderRadius) !important;
+    background-color: var(--backColorTransparent) !important;
+}
+.collapsible-body {
+    border-width: 0px !important;
+}
+.collapsible-body > .collapsible-item:last-child {
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-width: 0px !important;
+    border-bottom-width: 4px !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: 0px 0px var(--omnivoxBorderRadius) var(--omnivoxBorderRadius) !important;
+    background-color: var(--backColorTransparent) !important;
+}
+.collapsible > .card-panel {
+    border-width: 0px!important;
+}
+span.cgTitleMesServices,
+span.titre-menu-middle {
+    color: var(--main-color) !important;
+}
+td:has(table.width-menu > tbody > tr > td.width-menu-middle > span.titre-menu-middle) {
+    background-image: none !important;
+}
+div.parent-menu-gauche {
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-width: var(--omnivoxBorderWidth) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+td.cgBg {
+    background-image: none !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-width: 0px;
+    border-bottom-width: var(--omnivoxBorderWidth) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: 0px 0px var(--omnivoxBorderRadius) var(--omnivoxBorderRadius) !important;
+    background-color: transparent !important;
+}
+td.cgBg > div {
+    color: var(--main-color-5) !important;
+}
+td.cgBg > div.infoCGNoCours {
+    color: var(--main-color) !important;
+}
+table.width-menu > tbody > tr > td > img,
+div.parent-menu-gauche > img,
+div.parent-menu-gauche > table > tbody > tr > td > img {
+    opacity: 0 !important;
+    height: 10px !important;
+}
+/*
+div.section-droite>table.section-droite-table.droite-table-top-fix>tbody>tr>td.calendrier>table,
+div.section-droite>table.section-droite-table.droite-table-top-fix>tbody>tr>td.calendrier>table>tbody>tr>td>table,
+div.section-droite>table.section-droite-table.droite-table-top-fix>tbody>tr>td.calendrier>table>tbody>tr>td>table>tbody>tr,
+div.section-droite>table.section-droite-table.droite-table-top-fix>tbody>tr>td.calendrier>table>tbody>tr>td>table>tbody>tr>td{
+/*background-image: none !important;
+}*/
+table.tblMenuStyleXPDeuxNiveaux:not(:last-child),
+td.cgSelect {
+    background-image: none !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-width: 0px;
+    border-bottom-width: var(--omnivoxBorderWidth) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: 0px 0px var(--omnivoxBorderRadius) var(--omnivoxBorderRadius) !important;
+    background-color: transparent !important;
+}
+td.cgSelect > table.cgSelect-table > tbody > tr > td > a,
+td.cgSelect > table.cgSelect-table > tbody > tr > td > a.cvirLienCoursShadow {
+    color: var(--main-color-5) !important;
+}
+
+td.cgSelect > table.cgSelect-table > tbody > tr > td > a > font {
+    opacity: 0 !important;
+}
+td:has(table.width-menu),
+table.tblMenuStyleXPDeuxNiveaux > tbody > tr > td {
+    background-image: none !important;
+    background-color: transparent !important;
+}
+table.tblMenuStyleXPDeuxNiveaux > tbody > tr > td > table > tbody > tr > td > a {
+    color: var(--main-color-5) !important;
+}
+
+/* Reservation D'exam + gestion de certain truc d'input*/
+.Gen_Container_Module.spaceForFixedHeader {
+    padding: var(--omnivoxBorderRadius);
+
+    border-width: var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+
+.Gen_div_Instructions,
+.descriptionCritere,
+.Gen_Instruction.instructionMotsCles.txtBoxMotCleRecherche,
+.Gen_Instruction {
+    color: var(--main-color-5) !important
+}
+table.Gen_DataTable.tabDemandes > thead.headerListeDemande > tr > th {
+    padding: var(--omnivoxBorderRadius) !important;
+    border-width: var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+table.Gen_DataTable.tabDemandes,
+table.Gen_DataTable.tabDemandes > thead.headerListeDemande,
+table.Gen_DataTable.tabDemandes > thead.headerListeDemande > tr {
+    background-color: transparent !important;
+}
+div#divSectionParamRecherche.sectionParamRecherche {
+    padding: var(--omnivoxBorderRadius) !important;
+    border-width: var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+select.dropDownRecherche,
+select {
+    border-width: var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+    padding: var(--omnivoxBorderRadius) !important;
+}
+input.needDatepicker.hasDatepicker,
+input.txtBoxMotCleRecherche,
+input#TitreExamen,
+input.heure {
+    border-width: var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+    padding: var(--omnivoxBorderRadius) !important;
+}
+textarea#CommentaireEtudiant {
+    box-sizing: border-box;
+    border-width: var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+    padding: var(--omnivoxBorderRadius) !important;
+}
+table#tabParamRecherche > tbody > tr > td > div.footer {
+    background-color: transparent !important;
+}
+.Gen_BtnNextStep,
+.Gen_BtnContinuer,
+.Gen_BtnContinuerEtAjouter,
+.Gen_BtnConsulter,
+.Gen_BtnPayer {
+    background-color: var(--main-color-4) !important;
+}
+h2 {
+    color: var(--main-color) !important;
+}
+
+
+/*COURS ANNULÉS*/
+table.tbContenantPageLayout > tbody > tr > td > table:first-child,
+table.tbContenantPageLayout > tbody > tr > td > table:nth-child(5),
+table.tbContenantPageLayout > tbody > tr > td > table:nth-child(7) {
+    box-sizing: border-box;
+    border-width: var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    padding: var(--omnivoxBorderRadius) !important;
+}
+table.tbContenantPageLayout > tbody > tr > td > table:not(:has(h3)) {
+    box-sizing: border-box;
+    border-width: var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+    padding: var(--omnivoxBorderRadius) !important;
+}
+
+table.tbContenantPageLayout {
+    box-sizing: border-box;
+    border-width: var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+    padding: var(--omnivoxBorderRadius);
+}
+table.tbContenantPageLayout > tbody > tr > td > b > font,
+table.tbContenantPageLayout > tbody > tr > td > font,
+table.tbContenantPageLayout > tbody > tr > td > table:has(h3) {
+    background-color: transparent !important;
+    color: var(--main-color-2) !important;
+}
+table.tbContenantPageLayout > tbody > tr > td > table:not(:first-child):not(:nth-child(5)):not(:nth-child(7)) > tbody > tr > td {
+    background-color: transparent !important;
+}
+
+table.tbContenantPageLayout > tbody > tr > td > table:not(:first-child):not(:nth-child(5)):not(:nth-child(7)) > tbody > tr > td > b > font,
+table.tbContenantPageLayout > tbody > tr > td > table:not(:first-child):not(:nth-child(5)):not(:nth-child(7)) > tbody > tr > td > font {
+    color: var(--main-color-5)
+}
+
+/*Visionnement de l'horraire de cours CHOIX DE SESSION*/
+table.tbContenantPageLayout > tbody > tr > td > form > table > tbody > tr > td > table > tbody > tr > td > div,
+table.tbContenantPageLayout > tbody > tr > td > form > table > tbody > tr > td > table > tbody > tr > td > div > span,
+table.tbContenantPageLayout > tbody > tr > td > form > table > tbody > tr > td > table > tbody > tr > td,
+table.tbContenantPageLayout > tbody > tr > td > form > table > tbody > tr > td > table,
+table.tbContenantPageLayout > tbody > tr > td > form > table {
+    background-image: none !important;
+    background-color: transparent !important;
+}
+.Gen_Titre_Texte {
+    color: var(--main-color-7) !important;
+}
+.Gen_TitrePageModule.Gen_TitrePageModule_Titre {
+    color: var(--main-color)
+}
+table.tbContenantPageLayout > tbody > tr > td > form > table > tbody > tr > td > table > tbody > tr > td > div {
+    color: var(--main-color-5)
+}
+
+.Gen_Table_Button_Bottom_Top {
+    border-width: 0px !important;
+    border-top-width: var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+    padding: 6px !important;
+}
+.Gen_Table_Button_Bottom_Top > tbody > tr > td > div > input {
+    border-width: var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+    padding: 6px !important;
+}
+
+
+/*LÉA NOTES*/
+table.note-wrapper {
+    box-sizing: border-box;
+    border-width: var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+    padding: var(--omnivoxBorderRadius);
+    overflow: visible !important;
+}
+.cvirContenuCVIR font[size="2"] b,
+.tableGraphRepartition-titre {
+    color: var(--main-color-7) !important;
+}
+.cvirContenuCVIR font[face="Arial, Helvetica"][size="1"] {
+    color: var(--main-color-5) !important;
+}
+
+
+
+
+table.tableau-notes > tbody > tr {
+    box-sizing: border-box;
+    border-width: var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+    padding: var(--omnivoxBorderRadius);
+}
+.cvirContenuCVIR .tableau-notes font[color="#0000FF"],
+.cvirContenuCVIR font[size="2"] {
+    color: var(--main-color-7) !important;
+}
+table.tableau-notes > tbody > tr:has(td[colspan="6"]),
+table.tableau-notes > tbody > tr > td:not(:has(td[colspan="6"])) {
+    background-color: transparent !important;
+}
+
+table.tableau-notes > tbody > tr:has(td[colspan="6"]) > td {
+    background-color: transparent !important;
+    border-width: 0px !important;
+    border-bottom-width: 0px !important;
+    color: transparent !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+}
+.tableGraphRepartition-fleche,
+#tableGraphRepartition > div > div {
+    color: var(--main-color-5) !important;
+}
+.tableGraphRepartition-fleche > .tableGraphRepartition-ligne,
+.tableGraphRepartition-contenu {
+    --lineColor: var(--main-color-4);
+    --rowColor: var(--omivoxCardTransparencyColor);
+    background-image: repeating-linear-gradient(var(--lineColor), var(--lineColor) 1px, var(--rowColor) 1px, var(--rowColor) 100%);
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+.tableGraphRepartition-fleche,
+
+.tableGraphRepartition-fleche > div.tableGraphRepartition-ligne {
+    border-right-color: var(--main-color-1) !important;
+}
+.tableGraphRepartition-separateur {
+    background-color: var(--main-color-1) !important;
+    border-color: var(--main-color-1) !important;
+    border-width: 1px !important;
+}
+.tableGraphRepartition-pointe {
+    border-bottom-color: var(--main-color-1) !important;
+}
+.tableGraphRepartition-barre-noteFinale {
+    background-color: #01f;
+}
+
+.tableGraphRepartition-barre-60etPlus {
+    background-color: var(--main-color-7);
+}
+
+.tableGraphRepartition-barre-40etPlus {
+    background-color: #fe4b4b;
+}
+
+.tableGraphRepartition-barre-moinsDe40 {
+    background-color: #fe4b4b;
+}
+
+.tableGraphRepartition-barre-codeRemarque {
+    background-color: transparent;
+}
+
+.tableGraphRepartition-barre-moyenne {
+    background-color: var(--main-color-4);
+}
+/*Léa note d'un cours*/
+tr[bgcolor="#FDDB8E"],
+[bgcolor="#EEEEEE"],
+[bgcolor="#FDDB8E"],
+[bgcolor="#ffffff"] {
+    background-color: transparent;
+}
+table.table-notes {
+    box-sizing: border-box;
+    border-width: var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+    padding: var(--omnivoxBorderRadius);
+}
+font[color="#990000"] {
+    color: var(--main-color-7);
+}
+table.tb-sommaire > tbody {
+    box-sizing: border-box;
+    border-width: var(--omnivoxBorderWidth) !important;
+    color: var(--main-color-5) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+    padding: var(--omnivoxBorderRadius);
+}
+table > tbody > tr > td[bgcolor="#FDDB8E"] {
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+.tb-abs-par-cours > tbody > tr > td > div {
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+
+td.selAv3MenuV2,
+td.contenuMenuGroupeLEASelectV3estdMenuV2 {
+    border-width: var(--omnivoxBorderWidth) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+td.selAv3MenuV2:hover,
+td.contenuMenuGroupeLEASelectV3estdMenuV2:hover {
+    border-width: var(--omnivoxBorderWidth) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--main-color-6) !important;
+    color: var(--main-color-5) !important;
+}
+.Gen_TdPaginationItem,
+.Gen_TdPaginationItemChoisi,
+.Gen_Btn.Gen_BtnPrecedent,
+.Gen_Btn.Gen_BtnContinuer,
+.Gen_Btn,
+.divContenuMenu .SousMenuItemMesClasses a,
+.divContenuMenu .SousMenuItemSelectionneMesClasses a,
+.divContenuMenu .SousMenuItemMesServices a,
+.divContenuMenu .SousMenuItemSelectionneMesServices a,
+.divContenuMenu .SousMenuItemAssisPedMenu a,
+.divContenuMenu .SousMenuItemAssisPedMenuSel a {
+    border-width: var(--omnivoxBorderWidth) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+    color: var(--main-color-7)
+}
+.Gen_TdPaginationItemChoisi {
+    background-color: var(--main-color-6) !important
+}
+.Gen_TdPaginationItemChoisi > a {
+    background-color: transparent !important
+}
+.Gen_Btn.Gen_BtnPrecedent:hover,
+.Gen_Btn.Gen_BtnContinuer:hover,
+.Gen_Btn:hover,
+.divContenuMenu:hover .SousMenuItemMesClasses a:hover,
+.divContenuMenu:hover .SousMenuItemSelectionneMesClasses a:hover,
+.divContenuMenu:hover .SousMenuItemMesServices a:hover,
+.divContenuMenu:hover .SousMenuItemSelectionneMesServices a:hover,
+.divContenuMenu:hover .SousMenuItemAssisPedMenu a:hover,
+.divContenuMenu:hover .SousMenuItemAssisPedMenuSel a:hover {
+    border-width: var(--omnivoxBorderWidth) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--main-color-6) !important;
+    color: var(--main-color-7);
+    background-image: none !important;
+}
+.sousMenuTable,
+.sousMenuTable table {
+    border-width: 0px !important;
+    padding-left: 10px;
+}
+.green,
+.btn.green,
+.green.btn-large,
+.green.btn-small,
+.green.btn-card,
+.pulse.green,
+.card .card-image.green {
+    background-color: var(--main-color) !important;
+}
+.btn.green.darken-3:hover,
+.green.darken-3.btn-large:hover,
+.green.darken-3.btn-small:hover,
+.green.darken-3.btn-card:hover {
+    background-color: var(--main-color-2) !important;
+}
+
+#FrListeBas {
+    border-width: var(--omnivoxBorderWidth) !important;
+    border-color: var(--omivoxColorDarkBlue) !important;
+    border-style: var(--omnivoxBorderStyle) !important;
+    border-radius: var(--omnivoxBorderRadius) !important;
+    background-color: var(--omivoxCardTransparencyColor) !important;
+}
+.tbPreviewSondageVote.tb-formulaire font,
+.HeaderListe,
+.Msg .cSujet {
+    color: var(--main-color-5);
+}
+.Gen_Instructions_Detail,
+.ContenuListe,
+.Msg .cDate,
+.Msg .leftHeader,
+.Msg .cBody,
+.titre-sondage-v19 {
+    color: var(--main-color-7) !important;
+}
+input[type="text"],
+input[type="password"],
+select {
+    color: var(--main-color-7) !important;
+    box-sizing: content-box;
+}
+div#Gen_Footer,
+table[bgcolor="#FFFFFF"] {
+    background-color: transparent !important;
+}
+
+/*Login Screen*/
+
+.body-identification-intraflex {
+background-image :var(--background-image) !important;
+background-size:var(--background-size, cover) !important;
+background-attachment:var(--background-attachment, fixed)!important;
+background-position:var(--background-position, center)!important;
+}
+
+.role {
+background-color: #ffffff !important; color: var(--main-color) !important;
+}
+.selected {
+background-color: var(--main-color) !important; color: #ffffff !important;
+}
+.role-2 {
+border-right-color:var(--main-color) !important;
+}
+.role-3 {
+border-left-color:var(--main-color) !important;
+}
+.container-roles { 
+border-color:var(--main-color) !important;
+}
+
+.green, .btn.green, .green.btn-large, .green.btn-small, .green.btn-card, .pulse.green, .card .card-image.green
+{
+background-color: var(--main-color) !important;
+}
+.btn.green.darken-3:hover, .green.darken-3.btn-large:hover, .green.darken-3.btn-small:hover, .green.darken-3.btn-card:hover {
+background-color: var(--main-color-2) !important;
+}
+span[title="Date de réception"]{
+color: var(--main-color) !important
+}
+
+
+/*Léa travaux*/
+
+.TitrePageLigne1,
+.TitrePageLigne2{
+color: var(--main-color) !important;
+border-color: var(--omivoxColorDarkBlue) !important;
+border-width: var(--omnivoxBorderWidth) !important;
+border-style: var(--omnivoxBorderStyle) !important;
+border-radius: var(--omnivoxBorderRadius) !important;
+background-color: var(--omivoxCardTransparencyColor) !important;
+}
+.TitrePageLigne1 {
+border-bottom-width: 0px !important; 
+border-bottom-left-radius: 0px !important;
+border-bottom-right-radius: 0px !important;
+width: 655px !important;
+}
+.TitrePageLigne2 {
+border-top-width: 0px !important; 
+border-top-left-radius: 0px !important;
+border-top-right-radius: 0px !important;
+width: 655px !important;
+}
+
+#ctl00>center>table {
+color: var(--main-color-5) !important;
+border-color: var(--omivoxColorDarkBlue) !important;
+border-width: var(--omnivoxBorderWidth) !important;
+border-style: var(--omnivoxBorderStyle) !important;
+border-radius: var(--omnivoxBorderRadius) !important;
+background-color: var(--omivoxCardTransparencyColor) !important;
+}
+.CVIR_lblExplicationsTitre {
+color: var(--main-color-1) !important;
+}
+.CVIR_lblExplications {     
+color: var(--main-color-5) !important;
+}
+table#tabListeTravEtu{
+color: var(--main-color-5) !important;
+border-color: var(--omivoxColorDarkBlue) !important;
+border-width: var(--omnivoxBorderWidth) !important;
+
+border-style: var(--omnivoxBorderStyle) !important;
+border-radius: var(--omnivoxBorderRadius) !important;
+background-color: var(--omivoxCardTransparencyColor) !important;
+overflow: hidden;
+}
+table#tabListeTravEtu>tbody>tr:first-child>td{
+color: var(--main-color-5) !important;
+border-color: var(--omivoxColorDarkBlue) !important;
+border-width: var(--omnivoxBorderWidth) !important;
+border-right-width: 0px !important;
+border-left-width: 0px !important;
+border-style: var(--omnivoxBorderStyle) !important;
+
+border-radius: 0px !important;
+background-color: var(--omivoxCardTransparencyColor) !important;
+}
+table#tabListeTravEtu>tbody>tr:first-child>td:first-child{
+opacity: 0 !important;
+}
+table#tabListeTravEtu>tbody>tr:first-child>td:nth-child(2){
+border-left-width: var(--omnivoxBorderWidth) !important;
+border-bottom-left-radius: var(--omnivoxBorderRadius) !important;
+border-top-left-radius: var(--omnivoxBorderRadius) !important;
+}
+table#tabListeTravEtu>tbody>tr:first-child>td:last-child
+{
+border-right-width: var(--omnivoxBorderWidth) !important;
+border-bottom-right-radius: var(--omnivoxBorderRadius) !important;
+border-top-right-radius: var(--omnivoxBorderRadius) !important;
+}
+.EnteteListTabTravauxEtu {
+background-image: none;
+background-color: var(--omivoxCardTransparencyColor);
+color: var(--main-color-5);
+
+}
+
+tr[height="30"]>td{
+padding-top: var(--omnivoxBorderRadius);
+padding-bottom: var(--omnivoxBorderRadius);
+color: var(--main-color-5) !important;
+border-color: var(--omivoxColorDarkBlue) !important;
+border-width: var(--omnivoxBorderWidth) !important;
+border-right-width: 0px !important;
+border-left-width: 0px !important;
+border-style: var(--omnivoxBorderStyle) !important;
+
+border-radius: 0px !important;
+background-color: var(--omivoxCardTransparencyColor) !important;
+}
+tr[height="30"]>td:first-child{
+opacity: 0 !important;
+}
+tr[height="30"]>td:nth-child(2){
+padding-left: var(--omnivoxBorderRadius);
+border-left-width: var(--omnivoxBorderWidth) !important;
+border-bottom-left-radius: var(--omnivoxBorderRadius) !important;
+border-top-left-radius: var(--omnivoxBorderRadius) !important;
+}
+tr[height="30"]>td:last-child
+{
+padding-right: var(--omnivoxBorderRadius);
+border-right-width: var(--omnivoxBorderWidth) !important;
+border-bottom-right-radius: var(--omnivoxBorderRadius) !important;
+border-top-right-radius: var(--omnivoxBorderRadius) !important;
+}
+
+
+/*Léa calendrier*/
+
+/*Add background styling*/
+td.calendrier>table{
+color: var(--main-color-5) !important;
+border-color: var(--omivoxColorDarkBlue) !important;
+border-width: var(--omnivoxBorderWidth) !important;
+border-style: var(--omnivoxBorderStyle) !important;
+border-radius: var(--omnivoxBorderRadius) !important;
+background-color: var(--omivoxCardTransparencyColor) !important;
+background-image: none !important;
+}
+td.calendrier>table>tbody>tr>td,
+td.calendrier>table>tbody>tr>td>table,
+td.calendrier>table>tbody>tr>td>table>tbody,
+td.calendrier>table>tbody>tr>td>table>tbody>tr,
+td.calendrier>table>tbody>tr>td>table>tbody>tr>td {
+background-image: none !important;
+}
+td.calendrier>table>tbody>tr>td>img,
+td.calendrier>table>tbody>tr>td>table>tbody>tr>td>img{
+opacity: 0;
+}
+td.NomMoisMiniature{
+color: var(--main-color-1)
+}
+a.lien-cal-sommaire,
+a#cntFormulaire_HyperLink3{
+color:  var(--main-color) !important;
+}
+
+td.calendrier>table>tbody>tr>td>table>tbody>tr>td:has(a[title="Calendrier"]){
+text-align: center;
+}
+/*>table>tbody>tr>td>div*/
+/**:not(:has(a[title="Calendrier"]))*/
+td.calendrier>table>tbody>tr>td>table>tbody>tr>td{
+height: 0px !important;
+}
+td.calendrier>table>tbody>tr>td:has(a[title="Calendrier"])
+{
+color: var(--main-color-5) !important;
+border-color: var(--omivoxColorDarkBlue) !important;
+border-width: 0px !important;
+border-style: var(--omnivoxBorderStyle) !important;
+border-radius: var(--omnivoxBorderRadius) !important;
+background-image: none !important;
+padding: var(--omnivoxBorderRadius);
+border-bottom-width:  var(--omnivoxBorderWidth) !important;
+}
+table.tblGenMiniature>tbody>tr>td>table:has(.NomMoisMiniature),
+table.tblJoursMiniature{
+ color: var(--main-color-5) !important;
+border-color: var(--omivoxColorDarkBlue) !important;
+border-width: var(--omnivoxBorderWidth) !important;
+border-style: var(--omnivoxBorderStyle) !important;
+border-radius: var(--omnivoxBorderRadius) !important;
+background-color: var(--omivoxCardTransparencyColor) !important;
+background-image: none !important;
+padding: var(--omnivoxBorderRadius);
+}
+body[text="#000000"]{
+    color: var(--main-color) !important;
+}
+table.CelluleHoraire, .CelluleHoraire tbody tr td {
+    border-color: var(--main-color-3) !important;
+}
+

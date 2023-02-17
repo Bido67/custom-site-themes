@@ -1,3 +1,70 @@
+
+
+:root {
+    --backImageCSS: url(https://bido67.github.io/discord-backgrounds-bido/Back_FuckedBigger.png);
+    --main-font: Comic Sans Ms;
+}
+
+/* FROM GLOBAL FONT SETTINGS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+link,
+table,
+td,
+tr,
+div,
+span {
+    font-family: var(--main-font) !important;
+}
+
+
+:root {
+    --background-color-fallback: linear-gradient(to bottom, rgba(0, 119, 255, ff), rgba(0, 119, 255, ff));
+    /* ACCENT COLORS */
+    --main-color: #2780e6;
+    /*Default: #2780e6;*/
+    --main-color-1: #04aaf7;
+    /*Default:#04aaf7;*/
+    --main-color-2: #0f4cb7;
+    /*Default: #0f4cb7;*/
+    --main-color-3: #092e92;
+    /*Default: #092e92;*/
+    --main-color-4: #011193;
+    /*Default: #011193;*/
+    --main-color-5: #35d4f9;
+    /*Default: #35d4f9;*/
+    --main-color-6: #001153;
+    /*Default: #001153;*/
+    --main-color-7: #009cff;
+    /*Default: #009cff;*/
+
+    --background-shading: 50%;
+    --background-overlay: rgba(0, 0, 0, 0.45);
+    --background-image: var(--backImageCSS, var(--background-color-fallback));
+
+    --color-background-base: #0c0026aa !important;
+    /*Default:#0c0026aa*/
+    
+    --overlay-background-level: .2;
+
+    --backColorTransparent: #00000000;
+
+    --omnivoxBorderWidth: 2px;
+    --omnivoxBorderRadius: 15px;
+    --omnivoxBorderStyle: solid;
+    --omnivoxBackgroundHover: #00f7f636;
+    --omivoxColorLightBlue: var(--main-color);
+    --omivoxColorDarkBlue: var(--main-color-2);
+    --omivoxCardTransparencyColor: var(--color-background-base);
+}
+
+
 /* Omnivox.ca Retheme (Québec College's Web Portal) */
 window {
     max-width: 0 !important;

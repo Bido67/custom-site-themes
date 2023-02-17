@@ -5,25 +5,6 @@
     --main-font: Comic Sans Ms;
 }
 
-/* FROM GLOBAL FONT SETTINGS */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a,
-p,
-link,
-table,
-td,
-tr,
-div,
-span {
-    font-family: var(--main-font) !important;
-}
-
-
 :root {
     --background-color-fallback: linear-gradient(to bottom, rgba(0, 119, 255, ff), rgba(0, 119, 255, ff));
     /* ACCENT COLORS */
@@ -62,6 +43,29 @@ span {
     --omivoxColorLightBlue: var(--main-color);
     --omivoxColorDarkBlue: var(--main-color-2);
     --omivoxCardTransparencyColor: var(--color-background-base);
+}
+
+*::after {
+    content: "Hi there :D";
+    color: white;
+    background-color: black;
+}
+/* FROM GLOBAL FONT SETTINGS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+link,
+table,
+td,
+tr,
+div,
+span {
+    font-family: var(--main-font) !important;
 }
 
 

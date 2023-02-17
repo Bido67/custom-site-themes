@@ -45,11 +45,11 @@
     --omivoxCardTransparencyColor: var(--color-background-base);
 }
 
-*::after {
+/**::after {
     content: "Hi there :D";
     color: white;
     background-color: black;
-}
+}*/
 /* FROM GLOBAL FONT SETTINGS */
 h1,
 h2,
